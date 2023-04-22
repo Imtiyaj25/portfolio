@@ -259,7 +259,7 @@ section .title::after{
 }
 
 /* Technologies section styling */
-.Technologies, .teams{
+.Technologies .teams{
     color:#fff;
     background: #333;
 }
