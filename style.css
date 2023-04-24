@@ -259,20 +259,20 @@ section .title::after{
 }
 
 /* services section styling */
-.Technologies, .teams{
+.services, .teams{
     color:#fff;
     background: #333;
 }
-.Technologies .title::before,
+.services .title::before,
 .teams .title::before{
     background: #fff;
 }
-.Technologies .title::after,
+.services .title::after,
 .teams .title::after{
     background: #333;
     content: "what i learned";
 }
-.Technologies .serv-content .card{
+.services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -281,24 +281,24 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.Technologies .serv-content .card:hover{
+.services .serv-content .card:hover{
     background: crimson;
 }
-.Technologies .serv-content .card .box{
+.services .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.Technologies .serv-content .card:hover .box{
+.services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.Technologies .serv-content .card i{
+.services .serv-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.Technologies .serv-content .card:hover i{
+.services .serv-content .card:hover i{
     color: #fff;
 }
-.Technologies .serv-content .card .text{
+.services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
