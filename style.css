@@ -364,7 +364,7 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .python::before{
-    width: 90%;
+    width: 75%;
 }
 .skills-content .right .SQL::before{
     width: 60%;
